@@ -1,3 +1,4 @@
+
 # Advance Menu System Guide for Unreal Engine
 You can get the Menu System from the UE4 marketplace, if you haven't already: 
 https://www.unrealengine.com/marketplace/advanced-menu-system
@@ -43,3 +44,14 @@ also if you want to add more rebindable inputs:
 make sure the `input name` is the same specified in the project input settings.
 the axis values should match.
 and add the default key so when player resets the keybind it resets to the specified key.
+
+
+## Why am i getting this message "You will need to add Advance Menu system plugin to enable this functionality"
+The Menu system has UI scaling functionality, but due to limitation of blueprint it is distributed as a separate plugin. Download it from here, it is completely free:
+[Downlaod the Plugin](https://gum.co/nspP)
+
+## How to enable UI scaling functionality
+First download the additional functionality here: [Downlaod the Plugin](https://gum.co/nspP)
+Then follow this tutorial: [https://www.youtube.com/watch?v=FECDS9sZf-Q](https://www.youtube.com/watch?v=FECDS9sZf-Q)
+
+
