@@ -48,10 +48,17 @@ and add the default key so when player resets the keybind it resets to the speci
 
 ## Why am i getting this message "You will need to add Advance Menu system plugin to enable this functionality"
 The Menu system has UI scaling functionality, but due to limitation of blueprint it is distributed as a separate plugin. Download it from here, it is completely free:
+
 [Downlaod the Plugin](https://gum.co/nspP)
 
 ## How to enable UI scaling functionality
 First download the additional functionality here: [Downlaod the Plugin](https://gum.co/nspP)
+
 Then follow this tutorial: [https://www.youtube.com/watch?v=FECDS9sZf-Q](https://www.youtube.com/watch?v=FECDS9sZf-Q)
 
 
+## Why can't i see Video on my Menu background after packaging/building the game
+This is due to UE4 not packaging the video file with the game. UE4 does not include file with extension other than `.uasset` by default.
+
+You can change this by changing the package settings. Follow this tutorial here:
+[https://wiki.unrealengine.com/How_To_Package_Extra_NonUASSET_Files_With_Your_Game](https://wiki.unrealengine.com/How_To_Package_Extra_NonUASSET_Files_With_Your_Game)
