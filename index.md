@@ -62,3 +62,21 @@ This is due to UE4 not packaging the video file with the game. UE4 does not incl
 
 You can change this by changing the package settings. Follow this tutorial here:
 [https://wiki.unrealengine.com/How_To_Package_Extra_NonUASSET_Files_With_Your_Game](https://wiki.unrealengine.com/How_To_Package_Extra_NonUASSET_Files_With_Your_Game)
+
+## Audio settings don't work after i add my own sound
+You need to set audio class in your imported audio files. double click on the sound file. and you can assign a sound class there:
+
+![image](https://cdn.discordapp.com/attachments/442450806760013826/493417445558845440/unknown.png)
+
+
+You can also use sound cue. create a sound cue from the audio file.
+
+![image](https://cdn.discordapp.com/attachments/442450806760013826/493417839668232192/unknown.png)
+
+then double click the sound cue to open it up and assign sound class there.
+
+![image](https://cdn.discordapp.com/attachments/442450806760013826/493418115355377674/unknown.png)
+
+if you are using sound cue, then make sure when you are playing the audio, you change it to cue not the original audio file:
+
+![image](https://cdn.discordapp.com/attachments/442450806760013826/493418468318904332/unknown.png)
