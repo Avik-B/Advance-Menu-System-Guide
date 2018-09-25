@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+# Welcome to UE4 Advance Menu System Guide
 
-You can use the [editor on GitHub](https://github.com/Avik-B/Advance-Menu-System-Guide/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+#### How to add keybind and alternate keys
+You can just create new mappings for that. do not stack up multiple action keys in a single mapping.
+basically **DO NOT DO THIS**:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![](https://cdn.discordapp.com/attachments/442452324988747776/494176222994104330/unknown.png)
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+instead create a separate mapping:
 
-```markdown
-Syntax highlighted code block
+![](https://cdn.discordapp.com/attachments/442452324988747776/494176383518507010/unknown.png)
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+for axis mapping, you can stack up multiple inputs in a single mapping, just **DO NOT USE SAME VALUE** for the scale.
 
-1. Numbered
-2. List
+![](https://cdn.discordapp.com/attachments/442452324988747776/494176864944914432/unknown.png)
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+even if you want to have same value just add some fraction value.
+also if you want to add more rebindable inputs:
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+![](https://cdn.discordapp.com/attachments/442452324988747776/494177595282292754/unknown.png)
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Avik-B/Advance-Menu-System-Guide/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+make sure the `input name` is the same specified in the project input settings.
+the axis values should match.
+and add the default key so when player resets the keybind it resets to the specified key.
