@@ -18,10 +18,10 @@ Pause Menu Preview: [https://www.youtube.com/watch?v=vranbs3nfGM](https://www.yo
 ------------
 
 
-#### **This is still WIP, if you feel like you are not finding the answers you are looking for, ask it on our discord server:  **
+#### This is still WIP, if you feel like you are not finding the answers you are looking for, ask it on our discord server:
 [https://discord.gg/4x86FfX](https://discord.gg/4x86FfX "https://discord.gg/4x86FfX")
 
-# How to add keybind and alternate keys
+## How to add keybind and alternate keys
 You can just create new mappings for that. do not stack up multiple action keys in a single mapping.
 basically **DO NOT DO THIS**:
 
