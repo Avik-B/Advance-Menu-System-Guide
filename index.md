@@ -1,6 +1,6 @@
 # Welcome to UE4 Advance Menu System Guide
 
-#### How to add keybind and alternate keys
+## How to add keybind and alternate keys
 You can just create new mappings for that. do not stack up multiple action keys in a single mapping.
 basically **DO NOT DO THIS**:
 
