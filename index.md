@@ -80,3 +80,7 @@ then double click the sound cue to open it up and assign sound class there.
 if you are using sound cue, then make sure when you are playing the audio, you change it to cue not the original audio file:
 
 ![image](https://cdn.discordapp.com/attachments/442450806760013826/493418468318904332/unknown.png)
+
+## How to add custom options in the setting menu?
+Follow this video tutorial, this should get you started:
+https://youtu.be/QmEMXyDokvg
