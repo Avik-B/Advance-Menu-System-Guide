@@ -83,4 +83,4 @@ if you are using sound cue, then make sure when you are playing the audio, you c
 
 ## How to add custom options in the setting menu?
 Follow this video tutorial, this should get you started:
-https://youtu.be/QmEMXyDokvg
+[https://youtu.be/QmEMXyDokvg](https://youtu.be/QmEMXyDokvg)
