@@ -22,6 +22,21 @@ Pause Menu Preview: [https://www.youtube.com/watch?v=vranbs3nfGM](https://www.yo
 #### This is still WIP, if you feel like you are not finding the answers you are looking for, ask it on our discord server:
 [https://discord.gg/4x86FfX](https://discord.gg/4x86FfX "https://discord.gg/4x86FfX")
 
+## How do i set which main menu style to use instead of having all three?
+You can set it in the MainMenu level blueprint.
+
+![](https://cdn.discordapp.com/attachments/442452324988747776/503240880887693314/unknown.png)
+
+after that whichever you choose, open that widget
+
+![](https://cdn.discordapp.com/attachments/442452324988747776/503241097376563226/unknown.png)
+
+change the style chooser element visibility to collapsed
+
+![](https://cdn.discordapp.com/attachments/442452324988747776/503241342655266827/unknown.png)
+
+
+
 ## How to add keybind and alternate keys
 You can just create new mappings for that. do not stack up multiple action keys in a single mapping.
 basically **DO NOT DO THIS**:
