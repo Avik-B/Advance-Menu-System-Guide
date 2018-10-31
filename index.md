@@ -96,6 +96,11 @@ if you are using sound cue, then make sure when you are playing the audio, you c
 
 ![image](https://cdn.discordapp.com/attachments/442450806760013826/493418468318904332/unknown.png)
 
+## Audio mutes when i change sound level to 0
+The reason for this is that UE4 stops the music when the voulme is set to 0, this automatically happens for optimization reasons. You can override this for the specific sound file. Open the audio file and then check `Virtualize when Silent`.
+
+![image](https://cdn.discordapp.com/attachments/442452324988747776/505501832932753408/unknown.png)
+
 ## How to add custom options in the setting menu?
 Follow this video tutorial, this should get you started:
 [https://youtu.be/QmEMXyDokvg](https://youtu.be/QmEMXyDokvg)
